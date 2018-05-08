@@ -1,5 +1,28 @@
 <html>
 <head>
+	<html>
+<head>
+<style>
+div.background {
+    border: 1px solid black;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: ##00FFFF;
+    border: 1px solid black;
+    opacity: 0.1;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+</style>
+</head>
+
 <!--Element-elemen tag <head> tulis disini-->
 <title>WEBSITE BOLA DUNIA</title>
 <link rel="stylesheet" href="layout.css" />
@@ -10,16 +33,17 @@
 
 <header> <!--Section HEADER-->
 	<div class="logo">
+		<div class="background">
+  <div class="transbox">
 		<h1>SEPAKBOLA ID</h1>
 		<h4>Apapun informasinya yang penting berguna</h4>
 	</div>
 	<div class="navigasi">
 			<ul>
 				<li><a href="HOME.html">HOME</a></li>
-				<li><a href="hasil.html">HASIL</a></li>
-				<li><a href="klasemen.html">KLASEMEN</a></li>
-				<li><a href="topskor.html">TOP SKOR</a></li>
-				<li><a href="contact.html">CONTACT</a></li>
+				<li><a href="hasil.html">SEJARAH KLUB</a></li>
+				<li><a href="klasemen.html">BIODATA PEMAIN</a></li>
+				<li><a href="topskor.html">ABOUT</a></li>
 			</ul>
 	</div>
 </header>

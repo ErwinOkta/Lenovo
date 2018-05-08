@@ -1,10 +1,12 @@
 body {
-width: 960px;
+width: 1000px;
 margin: 30px auto;
+background-image:url("image/background.png");
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 main {
-display: flex;
 }
 
 .padding_this{
@@ -23,8 +25,8 @@ padding: 15px 0;
 .logo {
 width: 100%;
 height: auto;
-background-image:url("logo.jpg");
-background-position: left;
+background-image:url("image/logo.jpg");
+background-position: center;
 background-repeat: no-repeat;
 text-align: center;
 color: #000000;
@@ -36,13 +38,11 @@ background: #99D9EA;
 text-align: center;
 }
 .konten {
-width: 70%;
-background: #EFE4B0;
+width: 100%;
+background: #99D9EA;
+position: left;
 }
-.sidebar {
-width: 30%;
-background: #FD7E00;
-}
+
 .footer {
 width: 100%;
 background: #C3C3C3;

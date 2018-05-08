@@ -1,5 +1,28 @@
 <html>
 <head>
+	<html>
+<head>
+<style>
+div.background {
+    border: 1px solid black;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: ##00FFFF;
+    border: 1px solid black;
+    opacity: 0.1;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+</style>
+</head>
+
 <!--Element-elemen tag <head> tulis disini-->
 <title>WEBSITE BOLA DUNIA</title>
 <link rel="stylesheet" href="layout.css" />
@@ -10,16 +33,17 @@
 
 <header> <!--Section HEADER-->
 	<div class="logo">
+		<div class="background">
+  <div class="transbox">
 		<h1>SEPAKBOLA ID</h1>
 		<h4>Apapun informasinya yang penting berguna</h4>
 	</div>
 	<div class="navigasi">
 			<ul>
 				<li><a href="HOME.html">HOME</a></li>
-				<li><a href="hasil.html">HASIL</a></li>
-				<li><a href="klasemen.html">KLASEMEN</a></li>
-				<li><a href="topskor.html">TOP SKOR</a></li>
-				<li><a href="contact.html">CONTACT</a></li>
+				<li><a href="hasil.html">SEJARAH KLUB</a></li>
+				<li><a href="klasemen.html">BIODATA PEMAIN</a></li>
+				<li><a href="topskor.html">ABOUT</a></li>
 			</ul>
 	</div>
 </header>
@@ -27,9 +51,12 @@
 <main> <!--Section MAIN BODY-->
 	<div class="konten">
 		<div class="padding_this">
-			<h2>
-				HOME 
-			</h2>
+				<font size="7">Berita Hari Ini</font><br>
+				<img src="image/berita.jpg" width="800" height="300"> <br> <font size="6">Internazionale vs Manchester United</font><br>Goal salto dari Romelo Lukaku membuat Kiper tidak berkutik, dan membuat pupus harapan Internazionale untuk maju ke<br> babak Semifinal UEFA Champions League di musim ini</img><br><br>
+
+				<img src="image/berita2.png" width="800" height="300"> <br> <font size="6">Paris Saint Germaint vs Arsenal</font><br>Aksi akrobatik Neymar saat mengecoh kiper Arsenal Petr Cech, membuat Arsenal harus tersungkur di babak perempat final<br> UEFA Champions League yang kalah dengan skor 2 - 0 </img><br><br>
+
+
 			<p>
 				 
 			</p>
@@ -37,9 +64,7 @@
 	</div>
 	<div class="sidebar">
 		<div class="padding_this">
-			<h4>
-				Our Links
-			</h4>
+			
 			<ul>
 			
 			</ul>
